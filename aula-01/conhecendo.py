@@ -14,3 +14,7 @@ print(10 * 4)
 
 print("Divisão: ")
 print(5 / 2)
+
+#Trabalhando com variáveis
+nome = "Minerando Dados"
+print(nome)

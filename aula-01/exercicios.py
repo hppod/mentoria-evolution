@@ -17,3 +17,9 @@ print(float(10))
 
 # Converta o valor do tipo float para o tipo string
 print(str(10.0))
+
+#Arredonde o valor 2.898
+print(round(2.898))
+
+#Arredonde o valor 2.4545455 e exiba apenas 4 casas decimais
+print(round(2.4545455, 4))

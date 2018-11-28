@@ -19,21 +19,21 @@ print(frase[14:])
 # lower() - converte a string para minusculo
 print(frase.lower())
 
-#upper() - converte a string para maiusculo
+# upper() - converte a string para maiusculo
 print(frase.upper())
 
-#capitalize() - converte apenas o primeiro caractere para maiusculo
+# capitalize() - converte apenas o primeiro caractere para maiusculo
 print(frase.capitalize())
 
-#islower() - retorna true caso todos os caracteres da string sejam minusuculos
+# islower() - retorna true caso todos os caracteres da string sejam minusuculos
 print(frase.islower())
 
-#split() - quebra a string em uma lista de caracteres
-#é possível passar parametros de quebra dentro do metodo split. se não o fizer, ele quebrara a string pelos espaços em branco
+# split() - quebra a string em uma lista de caracteres
+# é possível passar parametros de quebra dentro do metodo split. se não o fizer, ele quebrara a string pelos espaços em branco
 print(frase.split())
 
-#count() - retorna a quantidade de vezes que uma string foi passada por parametro
+# count() - retorna a quantidade de vezes que uma string foi passada por parametro
 print(frase.count('Python'))
 
-#len - conta quantos caracteres a string possui
+# len - conta quantos caracteres a string possui
 print(len(frase))

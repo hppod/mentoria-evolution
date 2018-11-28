@@ -23,8 +23,8 @@ print(nome)
 a, b, c = 5, 10, 15
 print(a, b, c)
 
-#Funções Built-in
-#type() - retorna o tipo do objeto
+# Funções Built-in
+# type() - retorna o tipo do objeto
 
 print(type(5))
 
@@ -32,5 +32,18 @@ print(type(5.1))
 
 print(type("Python é uma maldição"))
 
-#Passando uma variável para o comando type. Ele retorna o tipo do valor alocado para aquela variável
+# Passando uma variável para o comando type. Ele retorna o tipo do valor alocado para aquela variável
 print(type(a))
+
+# Funções de Conversão
+# int() - converte o valor para inteiro
+print(int(3.14))
+
+# float() - converte o valor para float
+print(float(3))
+
+# str() - converte o valor para string
+print(str(5))
+
+# list() - converte o valor para uma lista
+print(list('hygor'))

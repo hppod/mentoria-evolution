@@ -22,3 +22,15 @@ print(nome)
 # Atribuição flexível de variáveis
 a, b, c = 5, 10, 15
 print(a, b, c)
+
+#Funções Built-in
+#type() - retorna o tipo do objeto
+
+print(type(5))
+
+print(type(5.1))
+
+print(type("Python é uma maldição"))
+
+#Passando uma variável para o comando type. Ele retorna o tipo do valor alocado para aquela variável
+print(type(a))

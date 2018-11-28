@@ -34,3 +34,6 @@ print(frase.split())
 
 #count() - retorna a quantidade de vezes que uma string foi passada por parametro
 print(frase.count('Python'))
+
+#len - conta quantos caracteres a string possui
+print(len(frase))

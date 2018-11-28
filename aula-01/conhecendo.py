@@ -47,3 +47,10 @@ print(str(5))
 
 # list() - converte o valor para uma lista
 print(list('hygor'))
+
+#Funções de arredondamento
+#round() - arredonda o valor
+print(round(2.84984))
+
+#após a virgula, especifica quantas casas decimais devem ser mantidas
+print(round(3.384759843, 3))

@@ -20,3 +20,22 @@ endereco[1] = 2750
 print(endereco)
 numero = endereco[1]
 print(rua, numero)
+
+#Operações com listas
+#Criando uma nova lista
+nomes = ['Felipe', 'João', 'Maria']
+print(nomes)
+
+#Contando elementos da lista
+cntd = len(nomes)
+print("A lista possui",cntd, "elementos")
+
+#Verificando a existência de elementos na lista
+print('Felipe' in nomes)
+print('Luísa' in nomes)
+
+#Valores máximos e minimos
+maxim = max(nomes)
+print(maxim)
+minim = min(nomes)
+print(minim)

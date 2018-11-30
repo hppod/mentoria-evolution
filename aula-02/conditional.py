@@ -42,3 +42,13 @@ for i in ['1a Fase', '2a Fase', '3a Fase']:
     for y in ['manhã', 'tarde', 'noite']:
         print(y)
     print(' ')
+
+# Loop while
+#     Sintaxe
+#     while <condicao>
+#         instruções
+
+i = 0
+while i < 10:
+    print(i)
+    i = i + 1

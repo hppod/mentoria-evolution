@@ -11,3 +11,10 @@ pessoas = {
     'pesos': {'Felipe': 68, 'Fulana': 55}
 }
 print(pessoas)
+
+# Acessando valores a partir de uma chave
+js = pessoas['José']
+print(js)
+
+pesos = pessoas['pesos']
+print(pesos)

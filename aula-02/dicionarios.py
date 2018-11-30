@@ -66,3 +66,5 @@ print(setdflt)
 
 items = pessoas.items()
 print(items)
+
+pessoas.clear()

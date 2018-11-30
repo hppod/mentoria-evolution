@@ -39,3 +39,10 @@ maxim = max(nomes)
 print(maxim)
 minim = min(nomes)
 print(minim)
+
+#Concatenando listas
+print(nomes)
+nomes + ['José', 'Carla']
+nomes = nomes + ['José', 'Carla']
+print(nomes)
+

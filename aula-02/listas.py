@@ -46,3 +46,6 @@ nomes + ['José', 'Carla']
 nomes = nomes + ['José', 'Carla']
 print(nomes)
 
+#Adicionando novos elementos
+nomes.append('Marcelo')
+print(nomes)

@@ -61,3 +61,9 @@ print(nomes)
 #Contando elementos
 cnt = nomes.count('João')
 print(cnt)
+
+#Ordendando os elementos
+nomes.sort()
+print(nomes)
+nomes.sort(reverse=True)
+print(nomes)

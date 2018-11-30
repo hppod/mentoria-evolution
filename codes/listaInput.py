@@ -2,9 +2,9 @@ lista = []
 
 print(lista)
 
-word = input("Digite uma palavra ")
-integer = input("Digite um número ")
-point = input("Digite um ponto flutuante ")
+word = input("Digite uma palavra: ")
+integer = input("Digite um número: ")
+point = input("Digite um ponto flutuante: ")
 
 lista.append(word)
 lista.append(int(integer))

@@ -57,3 +57,7 @@ print(indx)
 #Removendo elementos de uma lista
 nomes.remove('Marcelo')
 print(nomes)
+
+#Contando elementos
+cnt = nomes.count('João')
+print(cnt)

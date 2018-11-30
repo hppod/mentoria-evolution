@@ -51,3 +51,18 @@ cliente_01_cidade = Cadastro_pessoas['Clientes']['Cliente_01']['Cidade']
 print(cliente_01_cidade)
 cliente_02 = Cadastro_pessoas['Clientes']['Cliente_02']
 print(cliente_02)
+
+keys = pessoas.keys()
+print(keys)
+
+values = pessoas.values()
+print(values)
+
+get = pessoas.get('Juca', 'Não existe')
+print(get)
+
+setdflt = pessoas.setdefault('Marcos',40)
+print(setdflt)
+
+items = pessoas.items()
+print(items)

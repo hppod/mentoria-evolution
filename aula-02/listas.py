@@ -49,3 +49,7 @@ print(nomes)
 #Adicionando novos elementos
 nomes.append('Marcelo')
 print(nomes)
+
+#Indice de um determinado elemento
+indx = nomes.index('Marcelo')
+print(indx)

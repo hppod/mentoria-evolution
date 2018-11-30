@@ -25,3 +25,9 @@ pessoas = {
     'valores': [1, 3.5, 400, 5, 6],
 }
 print(pessoas)
+
+#Acessando chaves especificas
+cidfel = pessoas['Felipe']['Cidade']
+print(cidfel)
+pesfel = pessoas['Felipe']['Peso']
+print(pesfel)

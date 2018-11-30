@@ -9,3 +9,8 @@ endereco = ['Rua dos Fulanos, Belo Horizonte.', 2500]
 print(endereco)
 print(type(endereco))
 
+#Acessando elementos da lista
+rua = endereco[0]
+print(rua)
+numero = endereco[1]
+print(rua, numero)

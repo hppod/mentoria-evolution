@@ -13,3 +13,44 @@
 # l) Extenda a lista com dois novos elementos utilizando apenas um método.
 # m) Imprima o índice do elemento de valor 800 da lista de salarios.
 # n) Faça uma ordenação dos valores da lista de salarios em ordem crescente e decrescente.
+
+# PESSOAS
+pessoas = ['Mariana, 19', 'André, 21', 'Ricardo, 25', 'Rafaela, 30']
+
+pessoa1 = pessoas[1]
+print(pessoas)
+
+tamanho = len(pessoas)
+print(tamanho)
+
+pessoas[1] = 'Luísa, 26'
+pessoa1 = pessoas[1]
+print(pessoa1)
+
+pessoas.remove('Ricardo, 25')
+print(pessoas)
+
+# SALÁRIOS
+salarios = [900, 1200, 1500, 800, 12587, 10000]
+
+print(10000 in salarios)
+
+minim = min(salarios)
+maxim = max(salarios)
+
+print('Salário minimo:', minim, '| Salário máximo:', maxim)
+
+salarios.append(7000)
+print(salarios)
+
+salarios = salarios + [657, 9856]
+print(salarios)
+
+idx = salarios.index(800)
+print(idx)
+
+salarios.sort()
+print(salarios)
+
+salarios.sort(reverse=True)
+print(salarios)

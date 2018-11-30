@@ -53,3 +53,7 @@ print(nomes)
 #Indice de um determinado elemento
 indx = nomes.index('Marcelo')
 print(indx)
+
+#Removendo elementos de uma lista
+nomes.remove('Marcelo')
+print(nomes)

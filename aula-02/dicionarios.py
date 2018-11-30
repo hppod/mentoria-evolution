@@ -18,3 +18,10 @@ print(js)
 
 pesos = pessoas['pesos']
 print(pesos)
+
+# Dicionários aninhados
+pessoas = {
+    'Felipe': {'Idade': 30, 'Cidade': 'Belo Horizonte', 'Peso': 65},
+    'valores': [1, 3.5, 400, 5, 6],
+}
+print(pessoas)

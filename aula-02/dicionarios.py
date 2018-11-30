@@ -52,19 +52,27 @@ print(cliente_01_cidade)
 cliente_02 = Cadastro_pessoas['Clientes']['Cliente_02']
 print(cliente_02)
 
+# Retorna as chaves do dicionario
 keys = pessoas.keys()
 print(keys)
 
+# Retorna os valores do dicionario
 values = pessoas.values()
 print(values)
 
+# Retorna o valor de uma determinada chave se ela existir, se não retorna o valor passado como parametro
 get = pessoas.get('Juca', 'Não existe')
 print(get)
 
-setdflt = pessoas.setdefault('Marcos',40)
+# Retorna o valor da chave, se ela não existir, insere a chave e o valor no dicionario
+setdflt = pessoas.setdefault('Marcos', 40)
 print(setdflt)
 
+# Retorna todos os itens do dicionarios
 items = pessoas.items()
 print(items)
 
+# Limpa o dicionario
 pessoas.clear()
+
+print(pessoas)

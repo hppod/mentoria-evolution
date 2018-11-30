@@ -34,8 +34,8 @@ for c in "Python é uma linguagem de programação":
 
 # Loops FOR aninhados
     # Sintaxe
-    # for <variavel> in <condicao>
-    #     for <variavel> in <condicao>
+    # for <variavel> in <condicao>:
+    #     for <variavel> in <condicao>:
 
 for i in ['1a Fase', '2a Fase', '3a Fase']:
     print(i)
@@ -45,10 +45,24 @@ for i in ['1a Fase', '2a Fase', '3a Fase']:
 
 # Loop while
 #     Sintaxe
-#     while <condicao>
+#     while <condicao>:
 #         instruções
 
 i = 0
 while i < 10:
     print(i)
     i = i + 1
+
+# Loop while else
+#     Sintaxe
+#     while <condicao>:
+#         instruções
+#     else:
+#         instruções
+
+i = 0
+while i < 10:
+    print(i)
+    i = i + 1
+else:
+    print("Número é maior ou igual a 10")

@@ -5,5 +5,11 @@ import pandas as pd
 # CARREGANDO O DATASET DE PEDIDOS
 orders = pd.read_csv('olist_orders_dataset.csv')
 
-headDataset = orders.head()
-print(headDataset)
+headOrders = orders.head()
+print(headOrders)
+
+# CARREGANDO O DATASET DE ITENS PEDIDOS
+orders_items = pd.read_csv('olist_order_items_dataset.csv')
+
+headOrderItems = orders_items.head()
+print(headOrderItems)

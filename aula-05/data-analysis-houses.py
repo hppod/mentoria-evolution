@@ -19,7 +19,7 @@ firstTen = dataset.head(10)
 print(firstTen)
 
 # RETORNANDO APENAS IMOVEIS COM 3 QUARTOS
-threeBedrooms = dataset.loc[dataset['bedrooms']==3]
+threeBedrooms = dataset.loc[dataset['bedrooms'] == 3]
 print(threeBedrooms)
 
 # RETORNANDO IMOVEIS UNICOS

@@ -45,3 +45,7 @@ print(countDataset)
 # RETORNANDO O NOME DAS COLUNAS DO DATASET
 nameColumns = dataset.columns
 print(nameColumns)
+
+# RETORNANDO INFORMAÇÕES ESTATISTICAS DO DATASET
+describeDataset = dataset.describe()
+print(describeDataset)

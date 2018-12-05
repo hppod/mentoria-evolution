@@ -33,3 +33,7 @@ print("Unique Bedrooms", uniqueBedrooms)
 # RETORNANDO O NUMERO DE BANHEIROS DOS 10 PRIMEIROS IMOVEIS DO DATASET
 firstTenBathrooms = dataset.bathrooms.head(10)
 print("First Ten Bathrooms", firstTenBathrooms)
+
+# RETORNANDO A MEDIA DE BANHEIROS DO DATASET
+meanBathrooms = dataset.bathrooms.mean()
+print("Mean Bathrooms", meanBathrooms)

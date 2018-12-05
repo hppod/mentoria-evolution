@@ -21,3 +21,7 @@ print(firstTen)
 # RETORNANDO APENAS IMOVEIS COM 3 QUARTOS
 threeBedrooms = dataset.loc[dataset['bedrooms']==3]
 print(threeBedrooms)
+
+# RETORNANDO IMOVEIS UNICOS
+uniqueId = dataset.id.unique()
+print(uniqueId)

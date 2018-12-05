@@ -25,3 +25,7 @@ print(threeBedrooms)
 # RETORNANDO IMOVEIS UNICOS
 uniqueId = dataset.id.unique()
 print(uniqueId)
+
+# RETORNANDO NUMEROS DE QUARTOS DISPONIVEIS NO DATASET
+uniqueBedrooms = dataset.bedrooms.unique()
+print("Unique Bedrooms", uniqueBedrooms)

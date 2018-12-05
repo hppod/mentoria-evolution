@@ -29,3 +29,7 @@ print(uniqueId)
 # RETORNANDO NUMEROS DE QUARTOS DISPONIVEIS NO DATASET
 uniqueBedrooms = dataset.bedrooms.unique()
 print("Unique Bedrooms", uniqueBedrooms)
+
+# RETORNANDO O NUMERO DE BANHEIROS DOS 10 PRIMEIROS IMOVEIS DO DATASET
+firstTenBathrooms = dataset.bathrooms.head(10)
+print("First Ten Bathrooms", firstTenBathrooms)

@@ -41,3 +41,7 @@ print("Mean Bathrooms", meanBathrooms)
 # RETORNANDO A CONTAGEM DE REGISTROS DO DATASET
 countDataset = dataset.count()
 print(countDataset)
+
+# RETORNANDO O NOME DAS COLUNAS DO DATASET
+nameColumns = dataset.columns
+print(nameColumns)

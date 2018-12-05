@@ -20,3 +20,15 @@ df_query = pd.merge(orders[['order_id', 'order_status', 'order_approved_at']], o
 
 headDfQuery = df_query.head()
 print(headDfQuery)
+
+df_query = pd.merge(orders[['order_id', 'order_status', 'order_approved_at']], orders_items[[
+                    'order_id', 'product_id', 'seller_id', 'price', 'freight_value']], on='order_id', how='left')
+
+headDfQuery = df_query.head()
+print(headDfQuery)
+
+df_query = pd.merge(orders[['order_id', 'order_status', 'order_approved_at']], orders_items[[
+                    'order_id', 'product_id', 'seller_id', 'price', 'freight_value']], on='order_id', how='right')
+
+headDfQuery = df_query.head()
+print(headDfQuery)

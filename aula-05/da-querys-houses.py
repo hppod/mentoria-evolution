@@ -9,5 +9,9 @@ threeBedroomTwoOrMoreBathrooms = dataset.loc[(
 print(threeBedroomTwoOrMoreBathrooms)
 
 # CONTANDO A QUANTIDADE DE IMOVEIS COM 4 QUARTOS
-countFourBedrooms = dataset[dataset['bedrooms']==4].count()
+countFourBedrooms = dataset[dataset['bedrooms'] == 4].count()
 print(countFourBedrooms)
+
+# ORDENANDO O DATASET PELA COLUNA PREÇO POR ORDEM DECRESCENTE
+priceAscendingFalse = dataset.sort_values(by='price', ascending=False)
+print(priceAscendingFalse)

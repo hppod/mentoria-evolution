@@ -17,3 +17,7 @@ print(dataset)
 # IMPRIMINDO APENAS OS 10 PRIMEIROS REGISTROS DO DATASET
 firstTen = dataset.head(10)
 print(firstTen)
+
+# RETORNANDO APENAS IMOVEIS COM 3 QUARTOS
+threeBedrooms = dataset.loc[dataset['bedrooms']==3]
+print(threeBedrooms)

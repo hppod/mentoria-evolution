@@ -6,3 +6,5 @@ tipoDataset = type(dataset)
 print(tipoDataset)
 
 dataset.info()
+
+print(dataset)

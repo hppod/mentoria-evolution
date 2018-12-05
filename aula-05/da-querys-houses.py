@@ -15,3 +15,10 @@ print(countFourBedrooms)
 # ORDENANDO O DATASET PELA COLUNA PREÇO POR ORDEM DECRESCENTE
 priceAscendingFalse = dataset.sort_values(by='price', ascending=False)
 print(priceAscendingFalse)
+
+# AGRUPANDO E CONTANDO A QUANTIDADE DE IMOVEIS POR TAMANHO DE QUARTOS
+groupCountBedrooms = dataset.bedrooms.value_counts()
+print(groupCountBedrooms)
+
+groupCountBathrooms = dataset.bathrooms.value_counts()
+print(groupCountBathrooms)

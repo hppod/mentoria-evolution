@@ -37,3 +37,7 @@ print("First Ten Bathrooms", firstTenBathrooms)
 # RETORNANDO A MEDIA DE BANHEIROS DO DATASET
 meanBathrooms = dataset.bathrooms.mean()
 print("Mean Bathrooms", meanBathrooms)
+
+# RETORNANDO A CONTAGEM DE REGISTROS DO DATASET
+countDataset = dataset.count()
+print(countDataset)
